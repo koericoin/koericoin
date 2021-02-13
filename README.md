@@ -11,9 +11,9 @@ superior elite university Karlruhe Institute of Karlsruhe.
 
 ## List of current bootstrap nodes
 
-- Hosted by Julian6bG: `enode://58a467f03de6da5877a8e8afaa3cbb3d0927613262ec7fee657ce2a0dd891fc56301f86edf4ebcff479ee9e04efa439f7bc7759ac5b647cd236713cc96785fcc@5.45.106.216:30303`
-
-
+- `enode://58a467f03de6da5877a8e8afaa3cbb3d0927613262ec7fee657ce2a0dd891fc56301f86edf4ebcff479ee9e04efa439f7bc7759ac5b647cd236713cc96785fcc@5.45.106.216:30303`
+- `enode://8d41b7303764e4b64baec3b1df7cc3c793264e6d7735a9b7dcc4d675957e7c19bd258610dcd08a056d1297fb636988a5770c6fddc0f20a48cf5dfb6c138b477c@159.69.245.187:30303`
+- `enode://44c33cba8acb932bc88e441caaace6cc8696525ebce7544eb59e22768152a4cb0da8ee226b1134610554a2db0d363c02abafd355fbf7db00630a2f5df7699eba@5.9.120.174:30305`
 
 ## How to run a Koericoin node
 Koericoin currently is a seperated Ethereum chain, to profit
@@ -97,7 +97,7 @@ geth --datadir koerichain \
 ### ___Forth___
 Extract your enode address to be published.  
 In another terminal run  
-`./geth attach data/geth.ipc --exec admin.nodeInfo.enode`
+`./geth attach koerichain/geth.ipc --exec admin.nodeInfo.enode`
 
 This is the address we can add to the list of bootstrap nodes.
 
@@ -110,7 +110,7 @@ Copy your public key.
 Follow
 [how to run a Koericoin node](#how-to-run-a-Koericoin-node).
 
-###  ___Thirs___
+###  ___Third___
 Activate mining when starting your node.
 Replace the etherbase with your public key.
 ```bash
