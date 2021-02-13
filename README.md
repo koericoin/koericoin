@@ -3,7 +3,7 @@
 The (yet) unofficial cryptocurrency of the glorious
 superior elite university Karlruhe Institute of Karlsruhe.
 
-![Koericoin logo](https://github.com/koericoin/koericoin/raw/master/koeri_alpha_1000px.png =20%x)
+![Koericoin logo](https://github.com/koericoin/koericoin/raw/master/koeri_alpha_1000px.png =200x200)
 
 [Koericoin on Reddit](https://www.reddit.com/r/koericoin/)  
 [Koericoin on Discord](https://discord.gg/aZuH5WeDcg)
