@@ -112,7 +112,9 @@ Follow
 
 ###  ___Third___
 Activate mining when starting your node.
-Replace the etherbase with your public key.
+Replace the etherbase with your public key.  
+Set the size of your [Fadenschwimmbecken](https://en.wikipedia.org/wiki/Thread_pool) by replacing
+`--minerthreads=1`.
 ```bash
 geth --datadir koerichain \
     --networkid 1415926 \
@@ -123,7 +125,36 @@ geth --datadir koerichain \
 ```
 
 ## How to mine (GPU)
-TODO
+Start geth as a kind of local mining pool and connect
+to it with ethminer.
+
+
+### ___First___
+Start geth with rpc activated. Replace the etherbase with your wallet and
+the bootnodes with the bootnodes from
+[list of current bootstrap nodes](#list-of-current-bootstrap-nodes).
+```bash
+geth --datadir koerichain \
+    --networkid 1415926 \
+    --port 30303 \
+    --bootnodes "enode://123@ip:port,enode://123@ip:port" \
+    --mine \
+    --rpc \
+    --etherbase=0x0000000000000000000000000000000000000000
+```
+
+### ___Second___
+Get ethminer from [GitHub](https://github.com/ethereum-mining/ethminer).
+
+### ___Third___
+Start ethminer.
+```bash
+# Cuda:
+ethminer -U -P http://127.0.0.1:8545/
+# AMD:
+ethminer -G -P http://127.0.0.1:8545/
+```
+
 
 ## Get a wallet
 TODO  
