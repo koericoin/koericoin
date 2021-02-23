@@ -1,7 +1,7 @@
 # Kœri-Coin
 
 The (yet) unofficial cryptocurrency of the glorious
-superior elite university Karlruhe Institute of Technology.
+superior elite university Karlsruhe Institute of Technology.
 
 ![Koericoin logo](https://github.com/koericoin/koericoin/raw/master/koeri_alpha_1000px.png)
 
